@@ -10,5 +10,9 @@ angular.module("RelevantIndependent").config(function($locationProvider, $routeP
     .when("/accounts/register", {
         templateUrl: "templates/register.html",
         controller: "RegisterController"
-    });
+    })
+    .when("/reviews", {
+    	templateUrl: "templates/reviews.html",
+    	controller: "ReviewsController"
+    })
 });
