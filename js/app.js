@@ -1,3 +1,4 @@
+
 angular.module("RelevantIndependent", ["ngRoute", "RouteControllers"]);
  
 angular.module("RelevantIndependent").config(function($locationProvider, $routeProvider) {
