@@ -1,4 +1,4 @@
-angular.module("RelevantIndependent", ["ngRoute", "RouteControllers"]);
+angular.module("RelevantIndependent", ["ngRoute", "RouteControllers", "UserService"]);
  
 angular.module("RelevantIndependent").config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);  // Enable href routing without hashes
