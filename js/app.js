@@ -15,4 +15,20 @@ angular.module("RelevantIndependent").config(function($locationProvider, $routeP
     	templateUrl: "templates/reviews.html",
     	controller: "ReviewsController"
     })
+    .when("/reviews/motherrussiableeds", {
+        templateUrl: "templates/reviews_mrb.html",
+        controller: "ReviewsController"
+    })
+    .when("/reviews/abzu", {
+        templateUrl: "templates/reviews_abzu.html",
+        controller: "ReviewsController"
+    })
+    .when("/reviews/overcooked", {
+        templateUrl: "templates/reviews_overcooked.html",
+        controller: "ReviewsController"
+    })
+    .when("/reviews/octodad", {
+        templateUrl: "templates/reviews_octodad.html",
+        controller: "ReviewsController"
+    })
 });

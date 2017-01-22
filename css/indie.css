@@ -24,8 +24,35 @@
 #text
 	{
 	font-family: 'Indie Flower', cursive;
+	color: #663300;
 	}
 
 #background{
-	color: #CCFFCC;
+	background-image: url("images/backdrop.jpg");
+}
+
+#text2
+	{
+	font-family: 'Indie Flower', cursive;
+	color: #992600;
+	font-variant: small-caps;
+	}
+
+#centered {
+  transform: translate(-20%);
+}
+
+#imageright{
+	float: right;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+#imagecenter{
+	float: left;
+	padding: 5px;
+}
+
+#captionleft{
+	position: block;
 }
