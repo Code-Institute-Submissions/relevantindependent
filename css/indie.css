@@ -24,7 +24,8 @@
 #text
 	{
 	font-family: 'Indie Flower', cursive;
-	color: #663300;
+	color: black;
+	font-size: 150%;
 	}
 
 #background{
@@ -52,6 +53,7 @@
 	float: left;
 	padding: 5px;
 }
+
 
 #captionleft{
 	position: block;
