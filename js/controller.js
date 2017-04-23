@@ -9,7 +9,7 @@ angular.module('RouteControllers', [])
  
         $scope.submitForm = function() {
             if ($scope.registrationForm.$valid) {
-                $scope.registrationUser.username = $scope.user.username;
+                $scope.registrationUser.email = $scope.user.email;
                 $scope.registrationUser.password = $scope.user.password;
 
                 UserAPIService.registerUser(URL + "accounts/register/", $scope.registrationUser).then(function(results) {
@@ -21,6 +21,6 @@ angular.module('RouteControllers', [])
                 });
             }
  
-            console.log($scope.registrationUser.username + " " + $scope.registrationUser.password);
+            console.log($scope.registrationUser.email + " " + $scope.registrationUser.password);
         }
     });
