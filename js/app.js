@@ -1,4 +1,4 @@
-angular.module("RelevantIndependent", ["ngRoute", "RouteControllers", "UserService"]);
+angular.module("RelevantIndependent", ["ngRoute", "RouteControllers", "UserService", "angular-storage"]);
  
 angular.module("RelevantIndependent").config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);  // Enable href routing without hashes
@@ -13,7 +13,7 @@ angular.module("RelevantIndependent").config(function($locationProvider, $routeP
     })
     .when("/reviews", {
     	templateUrl: "templates/reviews.html",
-    	controller: "ReviewsController"
+    	controller: "FirstReviewsController"
     })
     .when("/reviews/motherrussiableeds", {
         templateUrl: "templates/reviews_mrb.html",
