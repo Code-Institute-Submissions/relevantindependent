@@ -5,7 +5,7 @@
 ### Why does Relevant Independent exist?
 I wanted to make a website containing news and reviews for independent video games.
 
-###What does the code do?
+### What does the code do?
 The code will allow users to view reviews, and register on a mailing list.
 
 ## Features
@@ -58,5 +58,5 @@ Alex Miller
 
 
 ## Acknowledgements:
-Matt Rudge (Tutor at Code Institute) - for guidance and advice
-Staff at Code Institute - for lessons on which Relevant Independent is based. Also for "getting the code up and running text"
+- Matt Rudge (Tutor at Code Institute) - for guidance and advice
+- Staff at Code Institute - for lessons on which Relevant Independent is based. Also for "getting the code up and running text"
