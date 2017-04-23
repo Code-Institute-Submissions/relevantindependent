@@ -6,7 +6,7 @@
 I wanted to make a website containing news and reviews for independent video games.
 
 ### What does the code do?
-The code will allow users to view reviews, and register on a mailing list.
+The code will allow users to view reviews, after registering with a username and password.
 
 ## Features
 
@@ -43,14 +43,26 @@ Please feel free to contribute! You can find me under alexmiller64 on github, an
 6. The project will now run on [localhost](http://127.0.0.1:8080)
 7. Make changes to the code and if you think it belongs in here then just submit a pull request
 
+## Tech Used
+
+### Some of the tech used includes:
+- [AngularJS](https://angularjs.org/)
+	- We use **AngularJS** to handle page routing, we also use it to make calls to the REST API and build custom directives
+- [Bootstrap](http://getbootstrap.com/)
+	- We use **Bootstrap** to give our project a simple, responsive layout
+- [npm](https://www.npmjs.com/)
+	- We use **npm** to help manage some of the dependencies in our application
+- [bower](https://bower.io/)
+	- **Bower** is used to manage the installation of our libraries and frameworks
+
 
 ## Validation:
 All relevant code has been run through a Markup Validation service here: https://validator.w3.org/check
 
 
 ## Built with:
-Bootstrap - Framework used
-HTML5, JavaScript, CSS - Syntaxes used
+- Bootstrap - Framework used
+- HTML5, JavaScript, CSS - Syntaxes used
 
 
 ## Author:
@@ -59,4 +71,4 @@ Alex Miller
 
 ## Acknowledgements:
 - Matt Rudge (Tutor at Code Institute) - for guidance and advice
-- Staff at Code Institute - for lessons on which Relevant Independent is based. Also for "getting the code up and running text"
+- Staff at Code Institute - for lessons on which Relevant Independent is based. Also for "getting the code up and running" section and "Tech Used/Some of the tech used includes" section of this README.
