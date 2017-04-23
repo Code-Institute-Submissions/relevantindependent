@@ -1,8 +1,8 @@
 # Relevant Independent README.
 
-##Overview
+## Overview
 
-###Why does Relevant Independent exist?
+### Why does Relevant Independent exist?
 I wanted to make a website containing news and reviews for independent video games.
 
 ###What does the code do?
